@@ -1,0 +1,20 @@
+{
+  "title": "Linda Armas Tours · Catalog + stories",
+  "brief": "Catalog as the protagonist, editorial storytelling below the travel cards, and personalized advice as a secondary action. Existing logo-inspired palette. Fictional content only; no production implementation. Original alternatives preserved. Motion inspired by infolavelada.com: soft screen entrances, progressive scroll reveals, and subtle illustration zoom. LAT palette retained; reduced-motion and unsupported-browser fallbacks included. Public site and staff preview separated. Light, dark and system appearance. Disabled illustrative login; no real authentication, credentials or client data.",
+  "artboards": [
+    {
+      "file": "01-catalog-stories.html",
+      "title": "Catalog first, stories alongside",
+      "tradeoff": "Travel discovery comes first; editorial inspiration and tailored advice remain visible below the catalog. Longer homepage than the initial catalog direction. Restrained motion emphasizes discovery without scroll locking; scroll-linked reveals depend on browser support.",
+      "width": 1440,
+      "height": 1600
+    },
+    {
+      "file": "02-staff-preview.html",
+      "title": "Staff access and workspace preview",
+      "tradeoff": "Independent visual preview with disabled login. Preview navigation is intentionally unauthenticated and contains fictional data only; production must enforce server-side sessions and permissions.",
+      "width": 1440,
+      "height": 1100
+    }
+  ]
+}
