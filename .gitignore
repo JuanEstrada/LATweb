@@ -29,3 +29,6 @@ Desktop.ini
 *.swp
 *.swo
 *~
+
+# Local agent skill registry and cache
+.atl/
