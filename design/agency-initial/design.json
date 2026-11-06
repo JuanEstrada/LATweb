@@ -1,0 +1,28 @@
+{
+  "title": "Linda Armas Tours · Initial agency experience",
+  "brief": "Three static directions for a single travel agency based in San Cristóbal de las Casas: home, inquiry, staff workspace, quotation/PDF and image-and-text blog. Confirmed agency name; purple and fuchsia interface inspired by the official multicolor logo, with decorative turquoise, lime and orange. Travel content remains fictional; no production functionality.",
+  "feature": "odd/tasks/initial-design.md",
+  "artboards": [
+    {
+      "file": "01-editorial.html",
+      "title": "Editorial journal",
+      "tradeoff": "Strong storytelling and regional warmth; fewer offers visible at once.",
+      "width": 1440,
+      "height": 1100
+    },
+    {
+      "file": "02-trip-catalog.html",
+      "title": "Trip catalog",
+      "tradeoff": "Fast discovery and comparison; less emphasis on long-form storytelling.",
+      "width": 1440,
+      "height": 1100
+    },
+    {
+      "file": "03-advisor-first.html",
+      "title": "Advisor-led journey",
+      "tradeoff": "Clear consultation process; less immediate catalog breadth.",
+      "width": 1440,
+      "height": 1100
+    }
+  ]
+}
