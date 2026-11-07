@@ -1,0 +1,172 @@
+Capítulo 1: Bienvenido a elegir tu stack
+0:000 segundosHola mundo. Si hoy le pides a tu agente "Hazme una aplicación", este va a elegir [música] el stack y ahí es donde empiezan los problemas. Y quería
+0:088 segundospreguntarte a ti, cuando no le indicas las herramientas que vas a utilizar, ¿qué herramientas este tiende a elegir por ti? Te ofrece JavaScript, Node,
+0:1616 segundosTypeScript y NextJS. No es que estas herramientas tengan algo malo, pero según yo existen muchas alternativas más. Entonces, un día te arma el backend
+0:2525 segundoscon Express, el otro día con Fastfy, después le mete Prisma, después tienes Mongus y en el frontend te termina instalando tres bibliotecas que terminan haciendo prácticamente lo mismo.
+0:3535 segundosEntonces, cada proyecto termina siendo un mundo completamente nuevo. Y ocurre que muchas veces [música] tienes que revisar código que ni siquiera sabes cómo este se encuentra armado. Y la
+0:4343 segundossolución, que aparentemente es muy sencilla, pero parece que algunos están pasando por alto, es [música] elegir el stack antes de empezar a construir. Y en
+0:5252 segundoseste vídeo yo te voy a mostrar uno de los stacks que yo utilizo cuando estoy desarrollando con agentes. Te voy a decir qué es cada pieza y también para
+1:001 minutoqué sirve cada una de estas. Y ojo con el listado que tú vas a ver en este video, porque esto es solamente un atajo. Esto debería a ti ahorrarte
+1:071 minuto y 7 segundossemanas de andar probando distintas herramientas para ver cuál se comporta mejor dependiendo de lo que tú quieras hacer. Pero un atajo no reemplaza a
+1:161 minuto y 16 segundossaber utilizarlas. Y tampoco este video garantiza que estas herramientas van a ser de tu preferencia. Y antes de empezar te quiero dar una advertencia
+1:241 minuto y 24 segundosimportante. [música] Si tú no entiendes lo que la gente está escribiendo con estas herramientas, no vas a poder revisarlo. Y por supuesto que si tú quieres aprender [música]
+1:321 minuto y 32 segundosestas herramientas en profundidad, te dejo más que invitado a la Academia Hal Mundo. Acá nosotros contamos con distintas rutas de aprendizaje y por
+1:391 minuto y 39 segundossupuesto que también múltiples cursos con los cuales tú puedes aprender desarrollo de software conmigo. Tenemos, por ejemplo, cursos de React, cursos de JavaScript, desarrollo asistido por
+1:471 minuto y 47 segundosinteligencia artificial, Node js y también JavaScript [música] Unit testing para profesionales, entre muchos cursos.
+1:541 minuto y 54 segundosVe y date una vuelta. Y por supuesto que si este tema es de tu interés, te dejo un cupón con un descuento abajo en la descripción de este video para que puedas matricularte ya. Y comencemos con
+Capítulo 2: ¿Por qué elegir un stack?
+2:022 minutos y 2 segundoslo más obvio. ¿Por qué elegir un stack fijo cuando trabajas con agentes? Y la primera ventaja es que nosotros podemos elegir herramientas populares. Estas van
+2:102 minutos y 10 segundosa tener buena documentación, van a tener una comunidad grande y por supuesto que la comunidad también va a ser activa.
+2:162 minutos y 16 segundosTienes que pensar que los modelos fueron entrenados con enormes cantidades de código y mientras más ejemplos exista
+2:232 minutos y 23 segundossobre una tecnología en específico, más probable es que el agente conozca las herramientas y también los patrones que se tienen que utilizar. Y en el caso que
+2:312 minutos y 31 segundoslos agentes necesiten información más reciente, siempre podemos utilizar un servidor MSP como Context 7 que nos
+2:392 minutos y 39 segundospermita acceder a la documentación más actual del momento. Y yo no creo que esto sea una sorpresa para ti, pero yo dentro de mi stack utilizo TypeScript, tanto en el frontend como en el backend.
+2:482 minutos y 48 segundosEsto es especialmente útil cuando te encuentras trabajando con agentes porque los errores de tipos, o sea, que vengan datos mal formados, el agente los
+2:562 minutos y 56 segundosdetecta inmediatamente. O sea, no es el agente, los detecta el compilador, pero el agente al ejecutar el compilador puede detectar los errores y puede empezar a iterar hasta solucionar el
+3:053 minutos y 5 segundosproblema. Y la tercera gran ventaja, que para mí es la más importante es la consistencia. Siempre estamos utilizando herramientas que nosotros conocemos, ya
+3:133 minutos y 13 segundossabemos cómo organizar los proyectos, ya sabemos dónde tiene que ir cada cosa [música] y también qué patrones nosotros
+3:203 minutos y 20 segundosdebemos esperar encontrarnos. Esto nos permite a nosotros revisar mucho más rápido el código que genera la gente y también detectar cuando este está
+3:293 minutos y 29 segundoshaciendo algo que no corresponde. Ahora te dejo un spoiler, esto no significa que tengamos que utilizar siempre las mismas herramientas para todos los
+3:363 minutos y 36 segundosproyectos, pero tener un stack conocido de punto de partida nos permite dedicar menos tiempo a decidir las herramientas y más a construir nuestras soluciones.
+3:473 minutos y 47 segundosEn otras [música] palabras, este stack tiene que conocerlo tu agente, pero por sobre todo tienes que conocerlo tú.
+3:533 minutos y 53 segundosAhora si vamos a ver las tecnologías [música] que contempla este stack. Y la primera tecnología de nuestro Stack es TypeScript. Si todavía no lo conoces,
+Capítulo 3: TypeScript
+4:014 minutos y 1 segundoTypeScript es JavaScript a la cual se le agregó tipado y este nos permite a nosotros poder detectar errores al momento de compilar nuestra aplicación.
+4:104 minutos y 10 segundosLo bueno de esto es que podemos atrapar los errores antes que nuestra aplicación siquiera llegue a producción. Por ejemplo, acá nosotros podemos indicar
+4:184 minutos y 18 segundoscuáles son los datos que va a tener, por ejemplo, la cuenta de un usuario. Así podemos saber también qué datos son obligatorios, cuáles son opcionales y
+4:264 minutos y 26 segundostambién si es que estos son números o si son strings. Así nuestro agente después no intenta utilizar una propiedad o un
+4:334 minutos y 33 segundosvalor que no existe. Esto nos permite a nosotros automatizar parte del proceso de verificación porque Typescript no reemplaza las pruebas automáticas ni
+4:424 minutos y 42 segundostampoco garantiza que nuestra aplicación funcione correctamente o al menos como nosotros esperamos. Otra ventaja es que nosotros podemos utilizar TypeScript
+4:504 minutos y 50 segundostanto en el frontend como en el backend y así mantenemos solamente un lenguaje de programación a lo largo de todo nuestro proyecto. Y algo que en lo
+4:574 minutos y 57 segundospersonal a mí me gusta mucho hacer es crear tipos compartidos, sobre todo los de las bases de datos. Entonces, los tipos de datos que yo utilizo en el
+5:055 minutos y 5 segundosbackend también los termino utilizando en el frontend. Y la siguiente herramienta de nuestro stack es Node, en específico con Express o con Hono. Node
+Capítulo 4: Node.js con Express o Hono
+5:145 minutos y 14 segundosjs nos permite a nosotros poder ejecutar JavaScript prácticamente en cualquier lado, pero a nosotros nos interesa ejecutarlo en el lado del servidor, pero
+5:235 minutos y 23 segundosencima de Node vas a necesitar un framework también para poder construir tus aplicaciones. Y acá tienes dos opciones. La primera es Express. Este
+5:325 minutos y 32 segundosframework es un clásico, lleva varios años funcionando, todo el mundo lo conoce, hay tutoriales para todo, pero el problema que tiene Express es que
+5:405 minutos y 40 segundoseste es minimalista, no cuenta con opiniones fuertes, por lo que si tú quieres habilitar cores o quieres agregar validación o Jason Web Tokens,
+5:485 minutos y 48 segundosvas a tener que empezar a instalar paquetes por separado. Por lo que si tú eres un desarrollador que le gusta tener soluciones más completas, en ese caso,
+5:575 minutos y 57 segundosla segunda opción quizás podría funcionarte mejor. Y este también es mi framework web backend favorito hasta el momento. Tiene una sintaxis, la verdad
+6:056 minutos y 5 segundoses que sumamente parecida a la de Express, pero a diferencia de Express es que este viene con todo, como dice acá, con baterías incluidas. Este viene con
+6:156 minutos y 15 segundosmiddlews the course, también viene con middlewars de autenticación, con caché, con JWT, Jason Web Tokens, viene con
+6:226 minutos y 22 segundosloggers, viene inmediatamente con soporte de cookies y este se encuentra pensado desde cero para empezar a trabajar con TypeScript. Además, este lo
+6:316 minutos y 31 segundospuedes ejecutar dentro de Node JS, lo puedes ejecutar también en Deno, lo puedes ejecutar en BAN, directamente en
+6:396 minutos y 39 segundosVersel, dentro de NextJS o incluso también en Cloudfare Workers. Entonces, con Hono JS lo que haces es que escribes
+6:476 minutos y 47 segundosmenos código, instalas menos dependencias y el agente en general tiene menos cosas que inventar. Y la siguiente herramienta dentro de este
+Capítulo 5: PostgreSQL
+6:546 minutos y 54 segundosstack es Postgress. Postgress QL, el nombre completo, es una base de datos relacional. Esta es open source, es gratis, puedes descargarla inmediatamente y empezar a utilizarla.
+7:047 minutos y 4 segundosEs superrobusta y la utilizan desde startups hasta empresas gigantes. Para que te hagas una idea, yo aún recuerdo
+7:127 minutos y 12 segundoscomo el año 2008 Yahoo anunció que tenía la base de datos más grande de todo el mundo con aproximadamente 2 petabytes de
+7:217 minutos y 21 segundosinformación en una versión modificada de Postgresel. Pero además, en enero del año 2026, Tiger Data anunció que uno de
+7:307 minutos y 30 segundossus servicios, en este caso Tiger Cloud, podía escalar hasta poder gestionar 3b de información. Por supuesto que todos
+7:387 minutos y 38 segundosestos servicios utilizan arquitecturas y extensiones especializadas, pero el punto de Postgress es que puedes empezar
+7:457 minutos y 45 segundosdesde cero y escalarlo a niveles estratosféricos. Y ahora que tenemos la base de datos, tenemos que poder ejecutarla dentro de nuestro computador
+Capítulo 6: Docker
+7:547 minutos y 54 segundosy eventualmente también en los servidores donde la vamos a desplegar y de manera consistente. Y podríamos instalarla directamente, pero yo prefiero utilizar Docker. Y Docker es
+8:028 minutos y 2 segundosuna aplicación que nos permite a nosotros poder ejecutar contenedores. En otras palabras, nosotros vamos a crear nuestras aplicaciones, las vamos a meter
+8:098 minutos y 9 segundosdentro de pequeños contenedores y estas se van a encargar de tener absolutamente todas las dependencias, pero la gracia que tien es que van a ser exactamente
+8:178 minutos y 17 segundosiguales, ya sea en tu máquina, en la máquina de otros desarrolladores y también en producción. Entonces, te ahorra el problema de en mi máquina sí
+8:248 minutos y 24 segundosfunciona. Y lo interesante de Docker es que nosotros podemos indicarle cómo queremos que funcione Postcres dentro de un archivo de configuración. le podemos
+8:338 minutos y 33 segundosindicar qué puertos necesitamos y también dónde vamos a guardar la base de datos. Después lo que hacemos es que ejecutamos solamente un único comando y
+8:428 minutos y 42 segundostodo empieza a funcionar. Esto es especialmente útil cuando nosotros nos encontramos trabajando con agentes y por supuesto que nosotros podemos compartir estas configuraciones con el resto de
+8:518 minutos y 51 segundosnuestro equipo. Así nadie tiene que estar instalando las dependencias manualmente y a todos les funciona exactamente igual que a ti. Y en el caso que nosotros ya no necesitemos un
+9:009 minutosservicio, sencillamente lo detenemos, lo eliminamos y listo, no hay más pasos. Y ya que tenemos Postgress funcionando, necesitamos un ORM, algo que nos permita
+Capítulo 7: Drizzle ORM
+9:099 minutos y 9 segundoscomunicarnos con Postgressh, pero de una manera más elegante. Y para eso yo utilizo el ORM de Drizzle. Con Drizzle
+9:169 minutos y 16 segundosnosotros podemos trabajar con nuestra base de datos sin necesidad de estar escribiendo código SQL. Pero aquí, antes de continuar avanzando, yo te quiero
+9:259 minutos y 25 segundosmencionar otra herramienta que a mí también me gusta bastante, además de Driz y esta es la de Sequeliz. Sequeliz, la verdad es que yo lo he utilizado
+9:349 minutos y 34 segundosmuchísimo y a mí me gusta mucho como implementa el patrón de Active Record. Y con Active Record nosotros podemos generar instancias de un usuario,
+9:439 minutos y 43 segundospodemos acceder a sus propiedades, pero también tiene métodos para que nosotros podamos guardarlos dentro de la misma base de datos. Por ejemplo, si nosotros
+9:519 minutos y 51 segundosquisiéramos crear un usuario, tenemos que llamar a la tabla de usuarios puncate y le pasamos este objeto. Y esto lo que va a hacer es devolvernos el
+9:599 minutos y 59 segundosobjeto de usuario ya creado. Y en el caso que nosotros queramos actualizarlo, lo que hacemos es que le cambiamos una propiedad y luego llamamos al método de save. Pero yo me di cuenta que yo empecé
+10:0710 minutos y 7 segundosa tener un problema con este URM por cómo yo lo utilizaba. Con Sequaliz tú lo que puedes hacer es ir a buscar algo,
+10:1510 minutos y 15 segundospor ejemplo, por un ID, por alguna primary key o por algo así. Y después, cuando este me lo devolvía, yo lo que hacía es que obtenía la propiedad del
+10:2410 minutos y 24 segundosusuario que me interesaba. por ejemplo, podría ser algún equipo de trabajo y después yo iba a buscar al equipo, pero
+10:3210 minutos y 32 segundospor este ID del usuario y después si yo quería ir a buscar otra cosa, tenía que sacar los IDs también del mismo equipo y así sucesivamente hasta que llegaba al
+10:4010 minutos y 40 segundosúltimo recurso. Pero ojo porque esto no es culpa del ORM, esto es necesariamente culpa mía de cómo yo lo estaba utilizando y eso lo que hacía es que yo
+10:4810 minutos y 48 segundosdespués terminaba realizando múltiples consultas en lugar de hacer solamente una. Y esto, por supuesto que es una completa tontera porque yo sí sé SQL, en
+10:5610 minutos y 56 segundosese entonces también sabía utilizar SQL y todo se hubiese resuelto solamente con una única consulta de SQL. Así no habríamos tenido problemas de
+11:0411 minutos y 4 segundosrendimiento, la aplicación hubiese escalado inmediatamente y no hubiésemos tenido que volver a revisar módulos para poder cambiar estas consultas para que
+11:1111 minutos y 11 segundossean solamente una. Y justamente por esto mismo es que yo estoy prefiriendo utilizar Drizzle, ya que lo que hace Drzzle es esconder un poco el uso de
+11:2011 minutos y 20 segundosSQL, pero detrás de métodos. Entonces, yo ya sé inmediatamente que aquí tengo acceso a la base de datos. Voy a hacer un select, voy a buscar dentro de la
+11:2911 minutos y 29 segundostabla de countries y yo lo que quiero es hacer un left join a cities donde el ID del país sea exactamente igual al ID del
+11:3811 minutos y 38 segundospaís, pero del registro de los países y no el de las ciudades. Y después más abajo veo que aquí se está haciendo un we donde el Countes ID sea igual a 10.
+11:4711 minutos y 47 segundosEntonces lo que me gusta a mí de Drel es que su API o su forma de interactuar con esta se parece muchísimo a SQL.
+11:5311 minutos y 53 segundosEntonces, podemos seleccionar columnas, podemos definir condiciones, podemos hacer joints y podemos hacer consultas,
+12:0112 minutos y 1 segundola verdad es que sumamente complejas, como si lo estuviese haciendo directamente con SQL, algo que con ORMs
+12:0812 minutos y 8 segundosque tienen Active Record, la verdad es que es sumamente difícil, por no decir prácticamente imposible. Además que Drzle se encuentra diseñado para trabajar directamente con Typescript.
+12:1812 minutos y 18 segundosEntonces, cuando nosotros queremos definir nuestras tablas, podemos obtener directamente los tipos y así detectar errores cuando intentamos acceder a
+12:2612 minutos y 26 segundoscolumnas que no existen. Y además tenemos Drzle Kit, el cual nos ayuda con las migraciones en base de datos, por lo que si alguno de nuestros esquemas
+12:3412 minutos y 34 segundoscambia, Drzle Kit se encarga de generarnos las migraciones, ejecutarlas, realizar los chequeos y prácticamente todo lo que nosotros podamos necesitar
+12:4312 minutos y 43 segundospara poder actualizar las bases de datos, no solamente locales, sino que también en producción. Y cuando trabajamos con agentes locales, nosotros
+12:5012 minutos y 50 segundospodemos pedirles que construyan estas consultas de manera explícita o que las escondan detrás de una clase para que
+12:5612 minutos y 56 segundosasí nosotros podamos acceder a un find by ID o algo más fácil. Pero si necesitamos acceder varias veces a la base de datos, en ese caso con Racon
+13:0513 minutos y 5 segundosnosotros solamente podemos hacer una única consulta y así accedemos solamente una vez. No es necesario hacer múltiples consultas cuando algo lo podemos
+13:1313 minutos y 13 segundosresolver con un joint. Y otra cosa que yo también recuerdo mucho que a mí me decían de las ventajas de los ORM, que nosotros siempre teníamos que utilizar
+13:2013 minutos y 20 segundosun ORM cuando estuviésemos desarrollando, ya que si [carraspeo] en un futuro nosotros queríamos cambiarnos de base de datos, esto iba a ser el proceso más fácil. Y yo he trabajado en
+13:2813 minutos y 28 segundosmuchos proyectos. Yo, la verdad, ya no tengo idea en cuántos proyectos he trabajado, pero he trabajado en muchos.
+13:3413 minutos y 34 segundosY adivina en cuántos de estos proyectos hemos tenido que cambiar la base de datos. en cero. Y ahora que ya tenemos
+13:4113 minutos y 41 segundosla base de datos chequeada, tenemos que pasar a ver cómo podemos gestionar a los [música] usuarios en nuestra base de datos. Y a mí me gusta utilizar Better
+Capítulo 8: Better Auth
+13:5013 minutos y 50 segundosOut. Better out se encarga del registro, el login y las sesiones [música] de tus usuarios. Y acá un consejo de viejo, no
+13:5713 minutos y 57 segundosintentes programar la autenticación tú desde cero. La autenticación es de esas partes donde un pequeño error significa
+14:0514 minutos y 5 segundosque alguien puede entrar en una cuenta que no es suya. Y la verdad es que el problema de la autenticación, autorización y registro de usuarios y
+14:1314 minutos y 13 segundoslogin y todas esas cosas es un problema que ha sido solucionado miles de miles de veces. Por eso a mí me gusta utilizar
+14:2014 minutos y 20 segundosBetter out. Esta es una biblioteca que funciona muy bien con TypeScript. Te resuelve el tema del email, de la contraseña, iniciar sesión, por ejemplo,
+14:2814 minutos y 28 segundoscon Google con GitHub. Y con Plugins, tú también le puedes agregar la autenticación de doble factor. Se conecta directo con Drizle, que es el ORM que acabamos de ver. Así que las
+14:3714 minutos y 37 segundostablas de usuario, de sesiones y de todas esas cosas te quedan ahí en algo que tú puedes ver y puedes entender. No se esconden detrás de Better out. Y la
+Capítulo 9: React
+14:4514 minutos y 45 segundossiguiente herramienta del stack, yo creo que es un poco obvia, pero es React. Con esto nosotros podemos construir aplicaciones para el frontend. Y la gracia que tiene es que un botón es un
+14:5414 minutos y 54 segundoscomponente, una tabla es un componente, un título es un componente, una tarjeta es un componente y estos después tú los
+15:0115 minutos y 1 segundopuedes reutilizar. Esta es la biblioteca de frontend más utilizada en todo el mercado, lo cual significa dos cosas, mucha oferta de trabajo y que los
+15:0915 minutos y 9 segundosmodelos la conocen muy bien, pero también vamos a tener múltiples formularios en nuestra aplicación. Así que para eso a mí me gusta utilizar
+Capítulo 10: React Hook Form
+15:1715 minutos y 17 segundosReact Hook Form. El problema que tiene React Hook Form es que en un comienzo, cuando empiezas a conectar tus formularios, tienes que escribir
+15:2515 minutos y 25 segundosbastante código, pero esto, la verdad es que es sumamente tedioso, pero como nosotros estamos trabajando con agentes, esta tarea se empieza a volver, la verdad es que en algo sumamente
+15:3315 minutos y 33 segundossencillo. Solo le dices a tu agente, usa React Hook Form y se va a encargar de implementarlo por ti. Entonces, cosas como, por ejemplo, el estado de cada
+15:4015 minutos y 40 segundoscampo de tu formulario, si es que existen errores, si se encuentra en un proceso de carga, deshabilitar el botón mientras se está enviando el formulario.
+15:4715 minutos y 47 segundosTodos esos problemas son resueltos por React Hook Form, pero nos falta algo. El frontend por lo general le pide datos al backend. Entonces, nosotros podríamos
+15:5615 minutos y 56 segundosutilizar fetch, podríamos utilizar Axios o lo que me gusta utilizar a mí es tstac query en conjunto con Axios. Entonces,
+Capítulo 11: TanStack Query
+16:0416 minutos y 4 segundoscuando nosotros realizamos peticiones, que las podemos hacer a través de FECH o también las podemos hacer con acos, nosotros nos tenemos que encargar de la
+16:1116 minutos y 11 segundosgestión del Estado, tenemos que encargarnos también del caché, tenemos que encargarnos del estado de carga, tenemos que encargarnos de los errores,
+16:1816 minutos y 18 segundostenemos que preocuparnos también de no solicitar exactamente los mismos registros 10 veces, tenemos que hacerlo solamente una vez. Y la verdad es que si
+16:2616 minutos y 26 segundosnosotros intentamos implementar eso desde cero, lo vamos a pasar muy mal.
+16:3016 minutos y 30 segundosPor eso es que a mí me gusta utilizar TAC Queries, porque soluciona absolutamente todos esos problemas. Se encarga de todo lo que se encuentra
+16:3716 minutos y 37 segundosalrededor de una petición, el estado de carga, el caché, los errores, los reintentos y actualizar también los datos en el caso de que estos cambien.
+16:4716 minutos y 47 segundosEntonces, Axios se encarga de realizar la petición y TTAC Query es el encargado de gestionar todo el estado alrededor de
+Capítulo 12: shadcn/ui con Tailwind CSS
+16:5516 minutos y 55 segundosuna petición. Y los stacks de desarrollo, por supuesto que no se encuentran completos si es que no tenemos herramientas para poder darle estilos a nuestra aplicación. Y una
+17:0417 minutos y 4 segundosherramienta que a mí me gusta muchísimo para esto es Chat CN. Este nos entrega los fundamentos para que nosotros podamos empezar a construir nuestro
+17:1217 minutos y 12 segundospropio design system. Si no sabes lo que es un design system, empieza a aprenderlo ahora porque te ayuda a que tu marca tenga un diseño consistente y
+17:2117 minutos y 21 segundostambién te ahorra mucho código al momento tú de estar construyendo. Te ahorra test, te ahorra código, te ahorra revisar código, te ahorra trabajo. Así
+17:2917 minutos y 29 segundosque es importante invertir en un buen design system. Entonces, Chats 100 es una colección de componentes que nos permiten a nosotros poder construir
+17:3717 minutos y 37 segundosinterfaces, pero con un aspecto profesional y consistente, sin tener que diseñar todo desde cero. Tenemos
+17:4517 minutos y 45 segundosbotones, tenemos formularios, tenemos tarjetas, tenemos gráficos y por supuesto que también documentación a la
+17:5217 minutos y 52 segundoscual tu agente puede acceder. Pero lo que más me gusta a mí de Chat CN es cómo funciona. Lo primero es que nosotros podemos personalizarlo con los colores
+18:0018 minutosde nuestras marcas y también podemos modificarlo para que este se adapte a nosotros. Y a diferencia de las bibliotecas tradicionales, Shat CN no es
+18:0818 minutos y 8 segundosalgo que tú llegas, descargas, instalas y te olvidas. Cuando nosotros decidimos agregar un componente, este pasa a ser parte del código de nuestra aplicación.
+18:1818 minutos y 18 segundosEsto significa que nosotros tenemos el control completo sobre este componente.
+18:2218 minutos y 22 segundosNosotros lo podemos extender, lo podemos modificar o incluso también si ya no lo necesitamos podemos eliminar ese componente. Y por supuesto también
+18:3118 minutos y 31 segundospodemos construir nuestros propios componentes a partir de lo que nos entrega Shatcn. Y ahora Shat 100 o Shatcn utiliza por debajo Tailwind CSS.
+18:4018 minutos y 40 segundosYo te voy a ser sumamente honesto, a mí la verdad es que Tailwind CSS no me encanta, pero esta es una biblioteca de CSS basada en utilerías. Entonces, tú lo
+18:4918 minutos y 49 segundosque haces es que le empiezas a ir agregando estas pequeñas propiedades y con eso tú vas cambiando el estilo de cómo se ven tus componentes.
+18:5518 minutos y 55 segundosPersonalmente, yo utilizo Tailwin CSS porque es parte del ecosistema de Shatsan. Yo no considero que Tailwin CSS sea la única forma de poder crear
+19:0419 minutos y 4 segundosestilos para tus aplicaciones, pero la verdad es que este stack y esta combinación, a mí en lo personal me resulta bastante práctico. Y nos falta la última parte. Van a existir partes de
+19:1319 minutos y 13 segundosnuestra aplicación donde el estado lo vamos a tener que gestionar nosotros, ya sea porque estamos diseñando una interacción, la verdad es que bastante
+19:2019 minutos y 20 segundoscompleja o porque TTA Query justamente no abarca estos casos. Es ahí cuando a mí me gusta utilizar Substant. y sustan
+Capítulo 13: Zustand
+19:2819 minutos y 28 segundoses una biblioteca que nos permite poder gestionar el estado de nuestra aplicación. Es sumamente minimalista, es muy fácil de utilizar, pero te voy a ser
+19:3719 minutos y 37 segundossumamente honesto, esto lo vas a utilizar muy muy poco porque la mayoría de los datos que tiene una aplicación vienen desde el servidor y estos ya son gestionados por Tanstack Query.
+19:4719 minutos y 47 segundosEntonces, sustan queda para el estado que vive solamente en la parte del frontend, por ejemplo, si es que un menú se encuentra abierto, si es que estás
+19:5419 minutos y 54 segundosutilizando un tema oscuro o un tema claro, el carrito de compras justamente antes de pagar y ese tipo de cosas. Y con esto ya nos estamos acercando a la
+Capítulo 14: Ajustes finales
+20:0220 minutos y 2 segundosparte final de este video. Y te quiero decir lo siguiente. Todas estas herramientas que nosotros vimos en este video, tú le puedes decir a tu agente cuando vaya a construir algo que utilice
+20:1120 minutos y 11 segundosestas herramientas y lo puedes dejar anotado dentro de tu archivo de agents.m. O también lo puedes dejar como una skill y de esta manera todos tus
+20:1920 minutos y 19 segundosproyectos pueden partir exactamente igual. Pero recuerda lo que yo te dije al principio. Esto es un atajo. Te dice qué herramientas utilizar, pero no cómo
+20:2720 minutos y 27 segundosutilizarlas bien. Tampoco te dice si una de estas herramientas te va a sobrar o si te falta alguna. El agente se va a encargar de escribir código con estas
+20:3420 minutos y 34 segundosherramientas y ese código alguien tiene que revisarlo y ese alguien vas a ser tú y vas a tener que revisar que la gente lo hizo bien. Y quieres aprender a utilizar estas herramientas en
+20:4320 minutos y 43 segundosprofundidad, te espero en la academia del mundo. El link se encuentra en la descripción de este video y por supuesto que te dejo un cupón con un descuento para que te puedas matricular desde ya.
+20:5020 minutos y 50 segundosY cuéntame en los comentarios qué stack estás utilizando tú. ¿Cambiarías alguna de estas herramientas? Y este fue el video de hoy. Nos veremos en el siguiente.
+
+Sincronizar con el tiempo del video
