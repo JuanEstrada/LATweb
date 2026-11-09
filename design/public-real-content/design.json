@@ -1,0 +1,27 @@
+{
+  "title": "Linda Armas Tours · Sitio público con contenido real",
+  "brief": "Tres propuestas estáticas en español basadas en la referencia consolidada de la agencia. Solo diseño público: sin instalación, reservas, envío de mensajes ni plataforma interna. Marca tipográfica e ilustraciones conceptuales provisionales; fotografías, logotipo original, tarifas, traducción y aprobación final pendientes. Paletas propuestas, no tokens oficiales.",
+  "artboards": [
+    {
+      "file": "01-catalogo.html",
+      "title": "Catálogo primero · Dirección recomendada",
+      "tradeoff": "Permite comparar tres recorridos y consultar sus condiciones antes de contactar. Conserva la continuidad de catálogo e historias; la historia personal queda más abajo y la página es extensa.",
+      "width": 1440,
+      "height": 1600
+    },
+    {
+      "file": "02-editorial.html",
+      "title": "El destino tiene una voz · Dirección editorial",
+      "tradeoff": "Abre con identidad, vocación e historia personal para construir cercanía. El catálogo llega después del relato: requiere más desplazamiento para quien ya busca un recorrido.",
+      "width": 1440,
+      "height": 1600
+    },
+    {
+      "file": "03-acompanamiento.html",
+      "title": "Primero las personas · Dirección de asesoría",
+      "tradeoff": "Prioriza la conversación, el proceso y los servicios a la medida con una guía sin captura de datos. Los recorridos son un punto de partida secundario y sus fichas se despliegan a petición.",
+      "width": 1440,
+      "height": 1600
+    }
+  ]
+}
