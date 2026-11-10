@@ -1,25 +1,11 @@
 {
-  "title": "Linda Armas Tours · Sitio público con contenido real",
-  "brief": "Tres propuestas estáticas en español basadas en la referencia consolidada de la agencia. Solo diseño público: sin instalación, reservas, envío de mensajes ni plataforma interna. Logotipo horizontal disponible integrado sin recomprimir y fotografías de paisajes en portadas y en cada tarjeta de recorrido para vista previa local, sin repetición dentro de cada propuesta; Palenque reconocible y escenas de referencia con ubicación por confirmar en las otras tarjetas; ubicaciones, permisos de uso, original vectorial del logotipo, tarifas, traducción y aprobación final pendientes. Paleta común propuesta a partir de los tonos visibles del logotipo: violeta oscuro para acciones, cian oscuro para enlaces y amarillo para acentos sobre fondos oscuros, con neutros claros. No es un manual oficial de marca; uso del logotipo autorizado solo para esta maqueta local, con permisos de publicación pendientes.",
+  "title": "Linda Armas Tours · Diseño unificado preliminar",
+  "brief": "Propuesta unificada en español basada en la referencia consolidada de la agencia y los bloques seleccionados en el canvas. Solo diseño público: sin instalación, reservas, envío de mensajes ni plataforma interna. Logotipo horizontal disponible y fotografías integrados para vista previa local; ubicaciones y permisos de uso pendientes. Paleta Borgoña elegida con modos claro y oscuro; no es un manual oficial de marca. Historias de viajeros pendientes de autorización; relato de Linda pendiente de aprobación. Tarifas, traducción, original vectorial del logotipo y aprobación final pendientes. Las alternativas anteriores permanecen conservadas en 01-catalogo.html y 02-editorial.html, fuera de la lista visible del canvas.",
   "artboards": [
     {
-      "file": "01-catalogo.html",
-      "title": "Catálogo primero · Dirección recomendada",
-      "tradeoff": "Permite comparar tres recorridos y consultar sus condiciones antes de contactar. Conserva la continuidad de catálogo e historias; la historia personal queda más abajo y la página es extensa.",
-      "width": 1440,
-      "height": 1600
-    },
-    {
-      "file": "02-editorial.html",
-      "title": "El destino tiene una voz · Dirección editorial",
-      "tradeoff": "Abre con identidad, vocación e historia personal para construir cercanía. El catálogo llega después del relato: requiere más desplazamiento para quien ya busca un recorrido.",
-      "width": 1440,
-      "height": 1600
-    },
-    {
       "file": "03-acompanamiento.html",
-      "title": "Primero las personas · Dirección de asesoría",
-      "tradeoff": "Prioriza la conversación, el proceso y los servicios a la medida con una guía sin captura de datos. Los recorridos son un punto de partida secundario y sus fichas se despliegan a petición.",
+      "title": "Diseño unificado preliminar",
+      "tradeoff": "Integra el encabezado y la navegación editoriales seleccionados con el inicio de asesoría. Presenta propuesta de viaje, recorridos y servicios, experiencias de viajeros pendientes, Conoce a Linda con su historia y contacto. Paleta Borgoña con selector Claro/Oscuro. Conserva contenido extenso e imágenes de referencia; permisos y aprobación final pendientes. Es una maqueta local, no un sitio listo para producción.",
       "width": 1440,
       "height": 1600
     }
