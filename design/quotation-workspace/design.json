@@ -1,0 +1,27 @@
+{
+  "title": "Linda Armas Tours · Cotizar y presentar",
+  "brief": "Unidad de diseño con tres alternativas estructurales para cotización interna y una plantilla comercial nueva: itinerario, hospedaje, inclusiones, exclusiones, precio y condiciones propuestas. Ejemplo ficticio de cuatro personas, dos tours y dos habitaciones por dos noches. Paleta borgoña preliminar con modo claro/oscuro, no manual oficial. Maquetas locales autocontenidas: sin backend, guardado, autenticación, envío ni generación de PDF. Costos y diferencia de venta solo en el espacio interno; impresión del navegador restringida al documento comercial. IVA 16% ilustrativo y configurable, pendiente de validación. Imprevistos desactivados; al activarlos el total queda pendiente porque no se ha definido su ubicación respecto del IVA. Las alternativas 01 y 02 conservan el ejemplo sin aeropuerto. La alternativa 03 permite tours y servicios de aeropuerto; recepción con discrepancia de tarifa pendiente de confirmación, sin total definitivo al seleccionarla. Tarifas de aeropuerto sujetas a horarios. XLSX y capturas son materiales de trabajo, no reglas canónicas. Fechas, disponibilidad, vigencia y condiciones por acordar.",
+  "artboards": [
+    {
+      "file": "01-mesa-de-costos.html",
+      "title": "Mesa de costos · Día por día",
+      "tradeoff": "Hoja de trabajo con secciones por día, compra/venta por unidad y resumen fijo en escritorio. Comparación directa y control operativo; mayor densidad. Documento comercial en vista separada y disposición móvil apilada.",
+      "width": 1440,
+      "height": 1200
+    },
+    {
+      "file": "02-ruta-guiada.html",
+      "title": "Ruta guiada · Una decisión a la vez",
+      "tradeoff": "Tres pasos navegables: grupo, servicios y precio. Reduce decisiones simultáneas y orienta la revisión; comparar todos los días requiere cambiar de paso. Documento comercial en vista separada; navegación compacta en móvil.",
+      "width": 1440,
+      "height": 1100
+    },
+    {
+      "file": "03-estudio-en-paralelo.html",
+      "title": "Estudio en paralelo · Editar y presentar",
+      "tradeoff": "Editor interno junto al documento comercial y modo solo documento. Catálogo buscable de ocho servicios del tarifario 2026, mezcla de categorías estándar/extranjeros por servicio, edición de días y eliminación. Itinerario e importes sincronizados; recepción de aeropuerto como referencia pendiente bloquea total definitivo. Mayor densidad y ancho; en móvil se apila. Sin guardado ni PDF real.",
+      "width": 1600,
+      "height": 1300
+    }
+  ]
+}
